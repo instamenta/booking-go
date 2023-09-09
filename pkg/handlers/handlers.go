@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"myapp/pkg/config"
-	"myapp/pkg/models"
-	"myapp/pkg/render"
 	"net/http"
+
+	"github.com/instamenta/booking-go/pkg/config"
+	"github.com/instamenta/booking-go/pkg/models"
+	"github.com/instamenta/booking-go/pkg/render"
 )
 
 var Repo *Repository

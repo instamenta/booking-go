@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"html/template"
 	"log"
-	"myapp/pkg/config"
-	"myapp/pkg/models"
 	"net/http"
 	"path/filepath"
+
+	"github.com/instamenta/booking-go/pkg/config"
+	"github.com/instamenta/booking-go/pkg/models"
 )
 
 var functions = template.FuncMap{}

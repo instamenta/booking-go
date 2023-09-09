@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 	"log"
-	"myapp/pkg/config"
-	"myapp/pkg/handlers"
-	"myapp/pkg/render"
 	"net/http"
 	"time"
 
 	"github.com/alexedwards/scs/v2"
+	"github.com/instamenta/booking-go/pkg/config"
+	"github.com/instamenta/booking-go/pkg/handlers"
+	"github.com/instamenta/booking-go/pkg/render"
 )
 
 const portNumber string = ":9992"
